@@ -1,0 +1,6 @@
+body { background: radial-gradient(circle, #0a0a0a, #1a1a1a); color: #00f2fe; font-family: sans-serif; margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+.app-container { text-align: center; width: 100%; }
+#video { width: 280px; height: 280px; border-radius: 50%; border: 4px solid #00f2fe; object-fit: cover; }
+.status-box { margin: 15px auto; width: 70%; padding: 10px; border-radius: 15px; background: rgba(0, 242, 254, 0.1); border: 1px solid #00f2fe; }
+.action-btn { padding: 12px 30px; background: transparent; border: 2px solid #00f2fe; color: #00f2fe; border-radius: 25px; cursor: pointer; }
+#lockScreen { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); display: none; z-index: 999; flex-direction: column; justify-content: center; align-items: center; color: #ff0055; }
